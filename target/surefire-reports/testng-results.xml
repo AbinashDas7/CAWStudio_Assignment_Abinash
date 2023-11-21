@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-21T10:38:32 IST" name="TestRunner.RunnerTest" finished-at="2023-11-21T10:38:40 IST" duration-ms="8005">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.RunnerTest@11a9e7c8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-11-21T10:38:32 IST" name="Command line test" finished-at="2023-11-21T10:38:40 IST" duration-ms="8005">
+      <class name="TestRunner.RunnerTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.RunnerTest@11a9e7c8]" started-at="2023-11-21T10:38:32 IST" name="setUpClass" finished-at="2023-11-21T10:38:32 IST" duration-ms="186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@62d73ead]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.RunnerTest@11a9e7c8]" started-at="2023-11-21T10:38:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-21T10:38:40 IST" duration-ms="7774" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is checking whether the table showing correct order or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify if user is able to get the table showing correct order or not"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.RunnerTest@11a9e7c8]" started-at="2023-11-21T10:38:40 IST" name="tearDownClass" finished-at="2023-11-21T10:38:40 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.RunnerTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- TestRunner.RunnerTest -->
+</testng-results>
